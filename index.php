@@ -16,6 +16,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     </head>
     <body>
+    	<div id="wrapper-shadow">
 		<div class="span11 wrapper">
 			<div class="row">
 			<div id="header">
@@ -84,10 +85,11 @@
 					<div id="embedVideo">
 						<?php include "/module/embedVideo.php"; ?>
 					</div>
-				
+				<div class="clear"></div>
 			</div> <!-- .content -->
 			</div>
 			
 		</div> <!-- .Wrapper -->
+		</div>
     </body>
     </html>

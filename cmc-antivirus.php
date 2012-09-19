@@ -16,6 +16,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     </head>
     <body>
+    <div id="wrapper-shadow">
     	<div class="span11 wrapper">
 			<div class="row">
 				<div id="header">
@@ -85,5 +86,6 @@
 				</div>
 			</div> <!-- .Row -->
 		</div> <!-- .Wrapper -->
+	</div>
     </body>
     </html>
