@@ -27,7 +27,7 @@ a{
 	width: 1035px !important;
 	margin: 0 auto !important;
 	float: none !important;
-	padding: 30px 30px 50px 30px;
+	padding: 30px 30px 0 30px;
 	border-radius: 12px;
 	background: #fff;
 }
@@ -208,7 +208,7 @@ a{
 	-moz-border-radius: 4px;
 	border-radius: 4px; 
 	float: left;
-	
+	margin-right: 15px;
 }
 
 .tabs{
@@ -316,7 +316,6 @@ a{
 	padding: 6px;
 	border: 1px solid #696868;
 	border-radius: 5px;
-	margin-left: 15px;
 }
 
 #sidebar ul li{
@@ -351,10 +350,10 @@ a{
 	line-height: 25px;
 }
 
-#embedVideo{
+#embedVideo_index{
 	width: 205px;
-	float: left;
 	margin: 20px 0 0 15px;
+	float: left;
 }
 
 .headTab img{
@@ -544,3 +543,230 @@ a{
 	border-color: #7e9dba;
 }
 
+.widget_question{
+	border: 1px solid #59595c;
+	width: 240px;
+	margin-bottom: 20px;
+}
+
+.widget_question p{
+	padding-left: 5px;
+}
+
+.dathang-colleft h3{
+	margin: 0;
+    padding: 6px 0;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    background: url("../images/button-bg1.png") repeat-x;
+    color: #fff;
+}
+
+.dathang-rightcol {
+	overflow: hidden;
+}
+
+.dathang-colleft{
+	width: 241px;
+	float: left;
+}
+
+.dathang-maincol{
+	width: 570px;
+	margin: 0 10px;
+	float: left;
+	border-top: 2px solid #626472;
+}
+
+.dathang-maincol-container{
+	padding-left: 10px;
+}
+
+.dathang-maincol ul li div{
+	border: 1px solid #000000;
+    float: left;
+    height: 23px;
+    margin: 10px 0;
+    width: 400px;
+    margin: 0;
+}
+
+.dathang-maincol ul{
+	margin-top: 10px;
+}
+
+.dathang-maincol ul li{
+	padding: 10px 0;
+}
+
+.dathang-maincol ul li p{
+	margin: 0;
+	float: left;
+	position: relative;
+	left: 15px;
+	line-height: 23px;
+}
+
+.dathang-maincol select{
+	float: left;
+	height: 23px;
+}
+
+.dathang-maincol img{
+	padding-left: 30px;
+}
+
+.dathang_table table{
+	width: 100%;
+}
+
+.dathang_table table tr{
+	padding: 10px 0;
+	overflow: hidden;
+	display: block;
+}
+
+.dathang_table table tr td:last-child input{
+	width: 300px;
+	border: 1px solid #59595c;
+	height: 23px;
+}
+
+.dathang_table table tr td{
+	float: left;
+	line-height: 25px;
+}
+
+.dathang_table table tr td:last-child .address{
+	height: 80px;
+}
+
+.dathang_table table tr td:last-child .gnt{
+	width: 50px;
+
+}
+
+.dathang_table table tr td:last-child .gnt:last-child{
+	margin-right: 194px;
+}
+
+.dathang_table table tr td:last-child {
+	float: right;
+	padding-right: 20px;
+}
+
+.dathang-content{
+	overflow: hidden;
+	padding-bottom: 60px;
+}
+
+.dathang_table .submit{
+	border: 1px solid #000;
+	height: 23px;
+	line-height: 23px;
+}
+
+.dathang_table .submit:hover{
+	background: -moz-linear-gradient(top, #e8f6fd, #a9dbf6);
+	
+}
+
+#content{
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.hoSoCongTyContainer .col-left h3{
+	font-size: 18px;
+	border-radius: 9px 9px 0 0;
+	background: #bdccd4;
+	color: #000;
+	height: 40px;
+	padding-left: 20px;
+	line-height: 40px;
+	margin: 0;
+}
+
+.hoSoCongTyContainer .col-left .containerBox p:first-child{
+	margin-top: 0;
+	
+}
+
+.containerBox{
+	border: 0 1px 1px 1px solid #c8c8c8;
+	background: -moz-linear-gradient(right, #fff, #e7e7e7);
+	box-shadow: 1px 1px 1px #c8c8c8;
+	border-radius: 0 0 9px 9px;
+	text-align: justify;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.containerBoxInto{
+	width: 720px;
+	margin: 0 auto;
+}
+
+.hoSoCongTyContainer .Left{
+	float: left;
+	width: 350px;
+}
+
+.hoSoCongTyContainer .Right{
+	float: right;
+	width: 350px;
+}
+
+.hoSoCongTyContainer .containerBoxInto img{
+	float: left;
+}
+
+.hoSoCongTyContainer .containerBoxInto .Left p,
+.hoSoCongTyContainer .containerBoxInto .Right p{
+	float: right;
+	font-size: 11px;
+	width: 240px;
+	margin-top: 0;
+	color: #333;
+}
+
+.hoSoCongTyContainer .containerBoxInto .Left strong,
+.hoSoCongTyContainer .containerBoxInto .Right strong{
+	text-align: right;
+	font-size: 14px;
+	display: block;
+	
+}
+
+.hoSoCongTyContainer .containerBoxInto .Left li,
+.hoSoCongTyContainer .containerBoxInto .Right li{
+	overflow: hidden;
+	clear: both;
+	margin: 10px 0;
+}
+
+.hoSoCongTyContainer #footer{
+	border-top: 1px solid #000;
+	padding-top: 20px;
+}
+
+#footer{
+	border-top: 1px solid #000;
+	padding-top: 20px;
+}
+
+.cmcquaanhColleft .le{
+	
+	padding-right: 100px;
+	
+}
+
+.cmcquaanhColleft div{
+	text-align: center;
+	float: left;
+}
+
+.cmcquaanhColleft img{
+	border: 1px solid #e8e8e8;
+	padding: 5px;
+}

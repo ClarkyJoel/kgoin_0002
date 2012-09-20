@@ -82,13 +82,17 @@
 					<div id="slider">
 						<?php include "/module/slider.php"?>
 					</div>
-					<div id="embedVideo">
-						<?php include "/module/embedVideo.php"; ?>
+					<div id="embedVideo_index">
+						<?php include "/module/embedVideoIndex.php"; ?>
 					</div>
-				<div class="clear"></div>
-			</div> <!-- .content -->
-			</div>
+				
 			
+					<div class="clear"></div>
+					<div id="footer">
+						<?php include "module/footer.php"; ?>
+					</div>
+				</div> <!-- .content -->
+			</div> <!-- .Row -->
 		</div> <!-- .Wrapper -->
 		</div>
     </body>

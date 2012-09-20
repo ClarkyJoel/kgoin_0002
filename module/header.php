@@ -23,7 +23,7 @@
 				</a>
 				<ul class="noJS">
 					<li><a href="index.php">Sản Phẩm & Dịch Vụ</a></li>
-					<li><a href="dathang">Đặt Hàng</a></li>
+					<li><a href="dathang.php">Đặt Hàng</a></li>
 					<li><a href="download.php">Tải Về</a></li>
 					<li><a href="daily.php">Đại Lý</a></li>
 				</ul>
@@ -34,8 +34,8 @@
 			<li id="menuItem_4">
 				<a href="#">Giới Thiệu</a>
 				<ul class="noJS">
-					<li><a href="#">Hồ Sơ Công Ty</a></li>
-					<li><a href="#">Đối Tác Chiến Lược</a></li>
+					<li><a href="hosocongty.php">Hồ Sơ Công Ty</a></li>
+					<li><a href="">Đối Tác Chiến Lược</a></li>
 					<li><a href="#">Tuyển Dụng</a></li>
 				</ul>
 			</li>

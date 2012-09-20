@@ -27,6 +27,7 @@
 					<div class="clear"></div>
 					<div id="path"><p><a href="index.php">CMC InfoSec.com</a> > <a href="#">Sản Phẩm & Dịch Vụ</a> > <a href="#">Cá Nhân, Gia Đình</a> > CMC Internet Security</p></div>
 					<div class="clear"></div>
+				<div id="content">
 				<div id="internet-security_content">
 					<div class="col-left">
 						<div class="antivirus-banner">
@@ -83,6 +84,7 @@
 				<div class="clear"></div>
 				<div id="footer">
 					<?php include "module/footer.php"; ?>
+				</div>
 				</div>
 			</div> <!-- .row -->
 		</div> <!-- .wrapper -->
