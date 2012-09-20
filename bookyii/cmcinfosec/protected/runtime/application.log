@@ -1,0 +1,43 @@
+2012/09/20 10:48:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CController.php(271): CController->missingAction('index.php')
+#1 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CWebApplication.php(283): CController->run('index.php')
+#2 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CWebApplication.php(142): CWebApplication->runController('page/index.php')
+#3 D:\xampp\htdocs\cmcinfosec\bookyii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\bookyii\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/bookyii/cmcinfosec/index.php?r=page/index.php
+---
+2012/09/20 17:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dai-ly".' in D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CController.php(271): CController->missingAction('dai-ly')
+#1 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CWebApplication.php(283): CController->run('dai-ly')
+#2 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CWebApplication.php(142): CWebApplication->runController('page/dai-ly')
+#3 D:\xampp\htdocs\cmcinfosec\bookyii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\bookyii\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/bookyii/cmcinfosec/index.php?r=page/dai-ly
+HTTP_REFERER=http://localhost/cmcinfosec/bookyii/cmcinfosec/
+---
+2012/09/20 17:07:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dai-ly".' in D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CController.php(271): CController->missingAction('dai-ly')
+#1 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CWebApplication.php(283): CController->run('dai-ly')
+#2 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CWebApplication.php(142): CWebApplication->runController('page/dai-ly')
+#3 D:\xampp\htdocs\cmcinfosec\bookyii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\bookyii\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/bookyii/cmcinfosec/index.php?r=page/dai-ly
+HTTP_REFERER=http://localhost/cmcinfosec/bookyii/cmcinfosec/
+---
+2012/09/20 17:08:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dai-ly".' in D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CController.php(271): CController->missingAction('dai-ly')
+#1 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CWebApplication.php(283): CController->run('dai-ly')
+#2 D:\xampp\htdocs\cmcinfosec\bookyii\framework\web\CWebApplication.php(142): CWebApplication->runController('page/dai-ly')
+#3 D:\xampp\htdocs\cmcinfosec\bookyii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\bookyii\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/bookyii/cmcinfosec/index.php?r=page/dai-ly
+HTTP_REFERER=http://localhost/cmcinfosec/bookyii/cmcinfosec/
+---
