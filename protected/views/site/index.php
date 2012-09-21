@@ -52,18 +52,18 @@ $this->pageTitle=Yii::app()->name;
 					    </div>
 					</div>
 					<div id="sidebar">
-						<?php include "/module/news-support-sidebar.php"; ?>
+						<?php include "module/news-support-sidebar.php"; ?>
 					</div>
 					<div class="clear"></div>
 					<div id="slider">
-						<?php include "/module/slider.php"?>
+						<?php include "module/slider.php"?>
 					</div>
 					<div id="embedVideo_index">
-						<?php include "/module/embedVideoIndex.php"; ?>
+						<?php include "module/embedVideoIndex.php"; ?>
 					</div>
 				
 			
 					<div class="clear"></div>
 					<div id="footer">
-						<?php include "/module/footer.php"; ?>
+						<?php include "module/footer.php"; ?>
 					</div>

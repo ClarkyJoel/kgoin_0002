@@ -28,6 +28,15 @@ return array(
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
 		*/
+		'yiiadmin'=>array(
+                'password'=>'admin123',
+                'registerModels'=>array(
+                    //'application.models.Contests',
+                    //'application.models.BlogPosts',
+                    //'application.models.*',
+                ),
+                //'excludeModels'=>array(),
+            ),
 	),
 
 	// application components
