@@ -40,7 +40,7 @@
 							</div>
 							<div class="downloadMaincol">
 								<div class="banner"><img src="images/banner-download.png" /></div>
-								<p><strong style="color: red;">Hướng dẫn Download:</strong><br>-Để tải bản cài đặt của CMC Internet Security, bạn chọn phiên bản muốn tải về, sau đó bấm vào đường dẫn "Download".<br>Mặc định miễn phí sử dụng cho bản CMC Antivirus</p>
+								<p style="padding-left: 10px;"><strong style="color: red;">Hướng dẫn Download:</strong><br>-Để tải bản cài đặt của CMC Internet Security, bạn chọn phiên bản muốn tải về, sau đó bấm vào đường dẫn "Download".<br>-Mặc định miễn phí sử dụng cho bản CMC Antivirus<br>-CMC Antivirus là giải pháp giúp bạn bảo vệ máy tính một cách toàn diện và đặc biệt là MIỄN PHÍ cho người dùng cá nhân.</p>
 								<ul class="tabsProduct">
 									<li class="le">
 										<h3><img src="images/nextCircle.png" /><span style="color: #fe8a22;">CMC</span> Antivirus</h3>
