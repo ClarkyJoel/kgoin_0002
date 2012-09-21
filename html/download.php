@@ -40,6 +40,61 @@
 							</div>
 							<div class="downloadMaincol">
 								<div class="banner"><img src="images/banner-download.png" /></div>
+								<p><strong style="color: red;">Hướng dẫn Download:</strong><br>-Để tải bản cài đặt của CMC Internet Security, bạn chọn phiên bản muốn tải về, sau đó bấm vào đường dẫn "Download".<br>Mặc định miễn phí sử dụng cho bản CMC Antivirus</p>
+								<ul class="tabsProduct">
+									<li class="le">
+										<h3><img src="images/nextCircle.png" /><span style="color: #fe8a22;">CMC</span> Antivirus</h3>
+										<div class="bodyTabs">
+											<div class="tren">
+												<img src="images/Antivirus-logo.png" />
+												<p><strong style="color: #7dddf9">CMC Antivirus</strong> bảo vệ máy tính của bạn và gia đình an toàn dù bạn đang làm việc, giao dịch ngân hàng, mua bán hoặc chơi game trực tuyến</p>
+											</div>
+											<div class="duoi">
+												<a href="#">Download</a>
+												<a href="#">More<img src="images/more-icon.png" /></a>
+											</div>
+										</div>
+									</li>
+									<li class="chan">
+										<h3><img src="images/nextCircle.png" /><span style="color: #fe8a22;">CMC</span> Internet Security</h3>
+										<div class="bodyTabs">
+											<div class="tren">
+												<img src="images/internetsecurity-logo.png" />
+												<p><strong style="color: #7dddf9">CMC Internet Security</strong> bảo vệ máy tính của bạn và gia đình an toàn dù bạn đang làm việc, giao dịch ngân hàng, mua bán hoặc chơi game trực tuyến</p>
+											</div>
+											<div class="duoi">
+												<a href="#">Download</a>
+												<a href="#">More<img src="images/more-icon.png" /></a>
+											</div>
+										</div>
+									</li>
+									<li class="le">
+										<h3><img src="images/nextCircle.png" /><span style="color: #fe8a22;">CMC</span> MegaVNN</h3>
+										<div class="bodyTabs">
+											<div class="tren">
+												<img src="images/megaDownloadThumbs.png" />
+												<p><strong style="color: #7dddf9">CMC MegaVNN</strong> bảo vệ máy tính của bạn và gia đình an toàn dù bạn đang làm việc, giao dịch ngân hàng, mua bán hoặc chơi game trực tuyến</p>
+											</div>
+											<div class="duoi">
+												<a href="#">Download</a>
+												<a href="#">More<img src="images/more-icon.png" /></a>
+											</div>
+										</div>
+									</li>
+									<li class="chan">
+										<h3> <img src="images/nextCircle.png" /><span style="color: #fe8a22;">CMC</span> Mobile Security</h3>
+										<div class="bodyTabs">
+											<div class="tren">
+												<img src="images/cmc-mobilesecurity-img.png" />
+												<p><strong style="color: #7dddf9">CMC Mobile Security</strong> bảo vệ máy tính của bạn và gia đình an toàn dù bạn đang làm việc, giao dịch ngân hàng, mua bán hoặc chơi game trực tuyến</p>
+											</div>
+											<div class="duoi">
+												<a href="#">Download</a>
+												<a href="#">More<img src="images/more-icon.png" /></a>
+											</div>
+										</div>
+									</li>
+								</ul>
 							</div>
 							<div class="dathang-rightcol">
 								<div id="sidebar">
