@@ -770,3 +770,61 @@ a{
 	border: 1px solid #e8e8e8;
 	padding: 5px;
 }
+
+.downloadMaincol{
+ 	border-top: 2px solid #626472;
+    float: left;
+    margin: 0 10px;
+    width: 570px;
+}
+
+.downloadMaincol .banner{
+	border: none;
+	padding-top: 10px;
+}
+
+.download-colleft{
+	float: left;
+    width: 241px;	
+}
+
+.download-colleft .menuMoRong{
+	margin-bottom: 20px;
+}
+
+.download-colleft .menuMoRong h3{
+	background: -moz-linear-gradient(top, #099FBB, #00506E);
+	height: 30px;
+    line-height: 30px;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #a9d2e2;
+}
+
+.download-colleft .menuMoRong ul{
+	border: 1px solid #c9cfd1;
+	overflow: hidden;c6cfd1
+}
+
+.download-colleft .menuMoRong ul li{
+	border-top: 1px solid #c9cfd1;
+	height: 25px;
+    line-height: 25px;
+    padding-left: 30px;
+    background: url("../images/glyphicons-halflings.png") no-repeat -450px -67px;
+    
+}
+
+.download-colleft .menuMoRong ul li a{
+	color: #2e6782;
+	
+}
+
+.download-colleft .menuMoRong ul li a:hover{
+	color: #b13134;
+}
+    
+.downloadContainer .banner img{
+	width: 570px;
+}
