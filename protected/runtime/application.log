@@ -41,3 +41,184 @@ Stack trace:
 REQUEST_URI=/cmcinfosec/bookyii/cmcinfosec/index.php?r=page/dai-ly
 HTTP_REFERER=http://localhost/cmcinfosec/bookyii/cmcinfosec/
 ---
+2012/09/21 09:32:36 [error] [exception.CException] exception 'CException' with message 'PageController cannot find the requested view "antivirus".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(783): CController->renderPartial('antivirus', NULL, true)
+#1 D:\xampp\htdocs\cmcinfosec\protected\controllers\PageController.php(27): CController->render('antivirus')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\actions\CInlineAction.php(50): PageController->actionAntivirus()
+#3 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('antivirus')
+#7 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('page/antivirus')
+#8 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=page/antivirus
+HTTP_REFERER=http://localhost/cmcinfosec/index.php
+---
+2012/09/21 09:39:28 [error] [exception.CException] exception 'CException' with message 'PageController cannot find the requested view "xaydung".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(783): CController->renderPartial('xaydung', NULL, true)
+#1 D:\xampp\htdocs\cmcinfosec\protected\controllers\PageController.php(12): CController->render('xaydung')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\actions\CInlineAction.php(50): PageController->actionXaydung()
+#3 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('xaydung')
+#7 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('page/xaydung')
+#8 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=page/xaydung
+HTTP_REFERER=http://localhost/cmcinfosec/index.php?r=site/index
+---
+2012/09/21 09:43:09 [error] [exception.CException] exception 'CException' with message 'PageController cannot find the requested view "xaydung".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(783): CController->renderPartial('xaydung', NULL, true)
+#1 D:\xampp\htdocs\cmcinfosec\protected\controllers\PageController.php(12): CController->render('xaydung')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\actions\CInlineAction.php(50): PageController->actionXaydung()
+#3 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('xaydung')
+#7 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('page/xaydung')
+#8 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=page/xaydung
+HTTP_REFERER=http://localhost/cmcinfosec/index.php?r=site/index
+---
+2012/09/21 09:44:06 [error] [exception.CException] exception 'CException' with message 'PageController cannot find the requested view "xaydung".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:879
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(783): CController->renderPartial('xaydung', NULL, true)
+#1 D:\xampp\htdocs\cmcinfosec\protected\controllers\PageController.php(12): CController->render('xaydung')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\actions\CInlineAction.php(50): PageController->actionXaydung()
+#3 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('xaydung')
+#7 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('page/xaydung')
+#8 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=page/xaydung
+HTTP_REFERER=http://localhost/cmcinfosec/index.php?r=site/index
+---
+2012/09/21 10:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in D:\xampp\htdocs\cmcinfosec\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 D:\xampp\htdocs\cmcinfosec\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('page')
+#6 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page/daily')
+#7 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=site/page/daily
+HTTP_REFERER=http://localhost/cmcinfosec/index.php
+---
+2012/09/21 10:23:53 [error] [php] include(module/question_widget.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\cmcinfosec\protected\views\page\dathang.php:12)
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CBaseController.php(96): PageController->renderInternal()
+#1 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(870): PageController->renderFile()
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(783): PageController->renderPartial()
+#3 D:\xampp\htdocs\cmcinfosec\protected\controllers\PageController.php(7): PageController->render()
+#4 D:\xampp\htdocs\cmcinfosec\framework\web\actions\CInlineAction.php(50): PageController->actionDathang()
+#5 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(287): PageController->runAction()
+#7 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(266): PageController->runActionWithFilters()
+#8 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): PageController->run()
+#9 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\cmcinfosec\index.php(13): CWebApplication->run()
+REQUEST_URI=/cmcinfosec/index.php?r=page/dathang
+in D:\xampp\htdocs\cmcinfosec\protected\views\page\dathang.php (12)
+in D:\xampp\htdocs\cmcinfosec\protected\views\page\dathang.php (12)
+in D:\xampp\htdocs\cmcinfosec\protected\controllers\PageController.php (7)
+2012/09/21 10:33:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "xaydung".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(271): CController->missingAction('xaydung')
+#1 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('xaydung')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('page/xaydung')
+#3 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=page/xaydung
+HTTP_REFERER=http://localhost/cmcinfosec/index.php?r=page/daily
+---
+2012/09/21 10:36:59 [error] [php] include(/module/embedVideoIndex.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\xampp\htdocs\cmcinfosec\protected\views\site\index.php:63)
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#1 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(870): SiteController->renderFile()
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(783): SiteController->renderPartial()
+#3 D:\xampp\htdocs\cmcinfosec\protected\controllers\SiteController.php(32): SiteController->render()
+#4 D:\xampp\htdocs\cmcinfosec\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#5 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(287): SiteController->runAction()
+#7 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#8 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): SiteController->run()
+#9 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\cmcinfosec\index.php(13): CWebApplication->run()
+REQUEST_URI=/cmcinfosec/index.php
+in D:\xampp\htdocs\cmcinfosec\protected\views\site\index.php (63)
+in D:\xampp\htdocs\cmcinfosec\protected\views\site\index.php (63)
+in D:\xampp\htdocs\cmcinfosec\protected\controllers\SiteController.php (32)
+2012/09/21 10:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "xaydung".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(271): CController->missingAction('xaydung')
+#1 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('xaydung')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('page/xaydung')
+#3 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=page/xaydung
+HTTP_REFERER=http://localhost/cmcinfosec/index.php?r=site/index
+---
+2012/09/21 11:15:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "xaydung".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(271): CController->missingAction('xaydung')
+#1 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('xaydung')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('page/xaydung')
+#3 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=page/xaydung
+HTTP_REFERER=http://localhost/cmcinfosec/index.php
+---
+2012/09/21 11:17:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "hoso".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(271): CController->missingAction('hoso')
+#1 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('hoso')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('about/hoso')
+#3 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=about/hoso
+HTTP_REFERER=http://localhost/cmcinfosec/index.php?r=about/index
+---
+2012/09/21 11:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cmcpic".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(271): CController->missingAction('cmcpic')
+#1 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('cmcpic')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('about/cmcpic')
+#3 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=about/cmcpic
+HTTP_REFERER=http://localhost/cmcinfosec/index.php?r=about/index
+---
+2012/09/21 11:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "cmcpic".' in D:\xampp\htdocs\cmcinfosec\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\cmcinfosec\framework\web\CController.php(271): CController->missingAction('cmcpic')
+#1 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(283): CController->run('cmcpic')
+#2 D:\xampp\htdocs\cmcinfosec\framework\web\CWebApplication.php(142): CWebApplication->runController('about/cmcpic')
+#3 D:\xampp\htdocs\cmcinfosec\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\cmcinfosec\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/cmcinfosec/index.php?r=about/cmcpic
+HTTP_REFERER=http://localhost/cmcinfosec/index.php?r=about/index
+---

@@ -1,25 +1,20 @@
 <?php
 
-class PageController extends Controller
+class ProductController extends Controller
 {
-	public function actionDathang()
+	public function actionAntivirus()
 	{
-		$this->render('dathang');
+		$this->render('antivirus');
 	}
 
-	public function actionHotro()
+	public function actionInternetsec()
 	{
-		$this->render('hotro');
+		$this->render('internetsec');
 	}
 
-	public function actionDaily()
+	public function actionMobilesec()
 	{
-		$this->render('daily');
-	}
-
-	public function actionLienhe()
-	{
-		$this->render('lienhe');
+		$this->render('mobilesec');
 	}
 
 	public function actionIndex()

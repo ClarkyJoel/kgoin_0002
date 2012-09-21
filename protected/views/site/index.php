@@ -4,6 +4,9 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 
+                    <div class="banner">
+						<img src="images/homepage-banner.png" style="padding-top: 5px; width: 1025px;" />
+					</div>
 					<div class="clear"></div>
 					<h3>Sản Phẩm & Dịch Vụ</h3>
 					<div id="tabContainer">
@@ -20,19 +23,19 @@ $this->pageTitle=Yii::app()->name;
 					    		<div class="span3 tab" >
 					    			<h3>CMC Antivirus</h3>
 					    			<p>CMC Antivirus là giải pháp giúp bạn bảo vệ máy tính một cách toàn diện và đặc biệt là MIỄN PHÍ cho người dùng cá nhân.</p>
-					    			<?php echo CHtml::link("Xem thêm...",array('page/antivirus')); ?>
+					    			<?php echo CHtml::link("Xem thêm...",array('product/antivirus')); ?>
 					    			<img src="images/Antivirus-thumbs-img.png" style="padding-top: 10px" />
 					    		</div>
 					    		<div class="span3 tab">
 					    			<h3>CMC Internet Security</h3>
 					    			<p>CMC Internet Security là giải pháp giúp bạn bảo vệ máy tính một cách toàn diện và đặc biệt là MIỄN PHÍ cho người dùng cá nhân.</p>
-					    			<?php echo CHtml::link("Xem thêm...",array('page/internetsecurity')); ?>
+					    			<?php echo CHtml::link("Xem thêm...",array('product/internetsec')); ?>
 					    			<img src="images/InternetSercurity-thumbs-img.png" style="padding-top: 10px" />
 					    		</div>
 					    		<div class="span3 tab">
 					    			<h3>CMC Mobile Security</h3>
 					    			<p>CMC MegaVNN là giải pháp giúp bạn bảo vệ máy tính một cách toàn diện và đặc biệt là MIỄN PHÍ cho người dùng cá nhân.</p>
-					    			<?php echo CHtml::link("Xem thêm...",array('page/mobilesecurity')); ?>
+					    			<?php echo CHtml::link("Xem thêm...",array('product/mobilesec')); ?>
 					    			<img src="images/MobileSecurity-thumbs.png" style="padding-top: 10px;"/>
 					    		</div>
 					    	</div>
@@ -49,13 +52,18 @@ $this->pageTitle=Yii::app()->name;
 					    </div>
 					</div>
 					<div id="sidebar">
-						<?php include "module/news-support-sidebar.php"; ?>
+						<?php include "/module/news-support-sidebar.php"; ?>
 					</div>
 					<div class="clear"></div>
 					<div id="slider">
-						<?php include "module/slider.php"?>
+						<?php include "/module/slider.php"?>
 					</div>
-					<div id="embedVideo">
-						<?php include "module/embedVideo.php"; ?>
+					<div id="embedVideo_index">
+						<?php include "/module/embedVideoIndex.php"; ?>
 					</div>
-                    <div class="clear"></div>
+				
+			
+					<div class="clear"></div>
+					<div id="footer">
+						<?php include "/module/footer.php"; ?>
+					</div>

@@ -1,27 +1,7 @@
 <?php
 
-class PageController extends Controller
+class DownloadController extends Controller
 {
-	public function actionDathang()
-	{
-		$this->render('dathang');
-	}
-
-	public function actionHotro()
-	{
-		$this->render('hotro');
-	}
-
-	public function actionDaily()
-	{
-		$this->render('daily');
-	}
-
-	public function actionLienhe()
-	{
-		$this->render('lienhe');
-	}
-
 	public function actionIndex()
 	{
 		$this->render('index');

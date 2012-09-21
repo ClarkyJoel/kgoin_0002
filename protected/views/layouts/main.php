@@ -30,16 +30,10 @@
 				
 					<div class="span3 logo">
 						<?php include "module/header.php"; ?>
-					</div>
-					<div class="clear"></div>
-					<div class="banner">
-						<img src="images/homepage-banner.png" style="padding-top: 5px; width: 1025px;" />
-					</div>
 				
 			</div>
-            
+            <div class="clear"></div>
             <?php echo $content; ?>
-            
 			</div>
 		</div>
 </div>

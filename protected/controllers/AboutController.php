@@ -1,30 +1,20 @@
 <?php
 
-class PageController extends Controller
+class AboutController extends Controller
 {
-	public function actionDathang()
+	public function actionHoso()
 	{
-		$this->render('dathang');
-	}
-
-	public function actionHotro()
-	{
-		$this->render('hotro');
-	}
-
-	public function actionDaily()
-	{
-		$this->render('daily');
-	}
-
-	public function actionLienhe()
-	{
-		$this->render('lienhe');
+		$this->render('hoso');
 	}
 
 	public function actionIndex()
 	{
 		$this->render('index');
+	}
+    
+   	public function actionCmcpic()
+	{
+		$this->render('cmcpic');
 	}
 
 	// -----------------------------------------------------------

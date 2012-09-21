@@ -4,7 +4,8 @@ $this->breadcrumbs=array(
 	'Daily',
 );?>
 
-                <div class="clear"></div>
+                <div id="path"><p><a href="index.php">CMC InfoSec.com</a> > Đại Lý</div>
+				<div class="clear"></div>
 				<div class="daily_content">
 					<div class="col-left colleft-daily">
 						<div class="daily_search">
@@ -246,17 +247,17 @@ $this->breadcrumbs=array(
 					</div> <!-- .col-left -->
 					<div class="col-right">
 						<div id="sidebar">
-							<?php include "module/news-support-sidebar.php"; ?>
+							<?php include "/module/news-support-sidebar.php"; ?>
 						</div>
 						<div class="support">
 							<img src="images/hotro_icon.png" />
 						</div>
 						<div id="top10Virus">
-							<?php include "module/top10virus.php"; ?>
+							<?php include "/module/top10virus.php"; ?>
 						</div>
 					</div>
 				</div> <!-- .content -->
 				<div class="clear"></div>
 				<div id="footer">
-					<?php include "module/footer.php"; ?>
+					<?php include "/module/footer.php"; ?>
 				</div>
