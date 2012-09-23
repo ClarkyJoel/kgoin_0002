@@ -47,18 +47,17 @@ $this->breadcrumbs=array(
 					   </div><!-- .tabContainer -->
 					</div> <!-- .col-left -->
 					<div class="col-right">
-						<div id="sidebar">
-							<?php include "module/news-support-sidebar.php"; ?>
-						</div>
+						
+                        <?php $this->widget('application.components.sidebar') ?>
+                        
 						<div class="support">
 							<img src="images/hotro_icon.png" />
 						</div>
-						<div id="top10Virus">
-							<?php include "module/top10virus.php"; ?>
-						</div>
+                        
+						<?php $this->widget('application.components.topvirus') ?>
+                        
 					</div> <!-- .Col-right -->
 				</div> <!-- .content -->
 				<div class="clear"></div>
-				<div id="footer">
-					<?php include "module/footer.php"; ?>
-				</div>
+                
+				<?php $this->widget('application.components.cmcfooter') ?>

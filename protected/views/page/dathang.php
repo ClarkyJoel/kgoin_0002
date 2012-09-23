@@ -8,12 +8,10 @@ $this->breadcrumbs=array(
 					<div class="dathang-content">
 						<p><Strong style="color: #0088cf;">Nâng Cấp:</strong> Khách hàng sử dụng CMC Antivirus gọi  <strong style="color: #c1272d;">0972 179 628</strong>  để nâng cấp lên CMC Internet Security</p>
 						<div class="dathang-colleft">
-							<div class="widget_question">
-								<?php include "module/question_widget.php"; ?>
-							</div>
-							<div id="embedVideo_dathang">
-								<?php include "/module/embedVideoDathang.php"; ?>
-							</div>
+                        
+							<?php $this->widget('application.components.cmcquestion') ?>
+                            
+							<?php $this->widget('application.components.videodathang') ?>
 						</div>
 						<div class="dathang-maincol">
 							<div class="dathang-maincol-container">
@@ -112,19 +110,17 @@ $this->breadcrumbs=array(
 							</div>
 						</div>
 						<div class="dathang-rightcol">
-							<div id="sidebar">
-								<?php include "/module/news-support-sidebar.php"; ?>
-							</div>
+                        
+							<?php $this->widget('application.components.sidebar') ?>
+                            
 							<div class="support">
 								<img src="images/hotro_icon.png" />
 							</div>
-							<div id="top10Virus">
-								<?php include "/module/top10virus.php"; ?>
-							</div>
+                            
+							<?php $this->widget('application.components.topvirus') ?>
 						
 						</div>
 					</div>
 					<div class="clear"></div>
-					<div id="footer">
-					<?php include "/module/footer.php"; ?>
-					</div>
+					
+                    <?php $this->widget('application.components.cmcfooter') ?>

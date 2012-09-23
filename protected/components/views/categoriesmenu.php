@@ -1,12 +1,3 @@
-<div class="span5 search">
-	
-		<span>Diễn Đàn CMC InfoSec</span>
-		<img src="images/search-icon.png">
-		<input name="search" type="text" maxlength="20" class="search-input" />
-		<button class="btn btn-custom" type="button">OK</button>
-	
-</div>
-<div class="clear"></div>
 <div id="mainMenu" class="main-menu">
 	<div class="menu">
 		<ul id="coolMenu" class="main_menu">

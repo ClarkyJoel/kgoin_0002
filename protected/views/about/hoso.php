@@ -30,18 +30,17 @@ $this->breadcrumbs=array(
 								</div>
 							</div>
 							<div class="col-right hosocongtyColright">
-								<div id="sidebar">
-									<?php include "module/news-support-sidebar.php"; ?>
-								</div>
+                            
+								<?php $this->widget('application.components.sidebar') ?>
+                                
 								<div class="support">
 									<img src="images/hotro_icon.png" />
 								</div>
-								<div id="top10Virus">
-									<?php include "module/top10virus.php"; ?>
-								</div>
+                                
+								<?php $this->widget('application.components.topvirus') ?>
+                                
 							</div>
 							<div class="clear"></div>
-							<div id="footer">
-								<?php include "module/footer.php"; ?>
-							</div>
+                            
+							<?php $this->widget('application.components.cmcfooter') ?>
 						</div>

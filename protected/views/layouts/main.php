@@ -25,17 +25,25 @@
 
 <div id="wrapper-shadow">
     <div class="span11 wrapper">
-			<div class="row">
+        <div class="row">
 			<div id="header">
 				
-					<div class="span3 logo">
-						<?php include "module/header.php"; ?>
+                <?php $this->widget('application.components.cmclogo') ?>
+                
+				<?php $this->widget('application.components.cmcsearch') ?>
+                
+                <div class="clear"></div>
+                
+                <?php $this->widget('application.components.categoriesmenu') ?>
 				
 			</div>
+            
             <div class="clear"></div>
+            
             <?php echo $content; ?>
-			</div>
-		</div>
+            
+        </div>
+    </div>
 </div>
 
 </body>

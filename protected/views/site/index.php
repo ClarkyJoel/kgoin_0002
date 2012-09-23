@@ -4,9 +4,7 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 
-                    <div class="banner">
-						<img src="images/homepage-banner.png" style="padding-top: 5px; width: 1025px;" />
-					</div>
+                    <?php $this->widget('application.components.cmcbanner') ?>
 					<div class="clear"></div>
 					<h3>Sản Phẩm & Dịch Vụ</h3>
 					<div id="tabContainer">
@@ -51,19 +49,15 @@ $this->pageTitle=Yii::app()->name;
 					      
 					    </div>
 					</div>
-					<div id="sidebar">
-						<?php include "/module/news-support-sidebar.php"; ?>
-					</div>
+                    
+					<?php $this->widget('application.components.sidebar') ?>
+                    
 					<div class="clear"></div>
-					<div id="slider">
-						<?php include "/module/slider.php"?>
-					</div>
-					<div id="embedVideo_index">
-						<?php include "/module/embedVideoIndex.php"; ?>
-					</div>
-				
-			
+                    
+					<?php $this->widget('application.components.slider') ?>
+                    
+                    <?php $this->widget('application.components.videoindex') ?>
+                    
 					<div class="clear"></div>
-					<div id="footer">
-						<?php include "/module/footer.php"; ?>
-					</div>
+                    
+                    <?php $this->widget('application.components.cmcfooter') ?>
