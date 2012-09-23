@@ -49,6 +49,7 @@ $this->pageTitle=Yii::app()->name;
 					      
 					    </div>
 					</div>
+
                     
 					<?php $this->widget('application.components.sidebar') ?>
                     
@@ -61,3 +62,4 @@ $this->pageTitle=Yii::app()->name;
 					<div class="clear"></div>
                     
                     <?php $this->widget('application.components.cmcfooter') ?>
+
