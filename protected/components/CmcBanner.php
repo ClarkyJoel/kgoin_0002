@@ -2,13 +2,13 @@
 
 class CmcBanner extends CWidget {
     
-    public $bannersrc;
+    public $cmcbanner;
     
     public function init() {
-        
+        $this->cmcbanner = '/images/homepage-banner.png';
     }
     
     public function run() {
-        $this->render('cmcbanner');
+        $this->render('cmcbanner', array('cmcbanner' => $this->cmcbanner));
     }
 }

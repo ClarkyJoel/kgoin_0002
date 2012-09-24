@@ -31,6 +31,16 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
+    
+    public function actionDathang()
+	{
+		$this->render('dathang');
+	}
+    
+    public function actionDaily()
+	{
+		$this->render('daily');
+	}
 
 	/**
 	 * This is the action to handle external exceptions.

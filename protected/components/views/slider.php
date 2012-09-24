@@ -1,18 +1,7 @@
 <div id="slider">
-
-    <a href="index.php" class="video">
-        <img src="images/EndpointSecurity-Slide.png" />
-    </a>
-
+    <?php foreach($this->slider as $slider):?>
     <a href="index.php">
-        <img src="images/CMC-Antivirus-Slide.png" />
+        <img src="<?php echo Yii::app()->request->baseUrl . $slider['path'] ?>" />
     </a>
-
-    <a href="index.php">
-        <img src="images/internetSecurity-Slide.png" />
-    </a>
-
-    <a href="index.php">
-        <img src="images/mobileSecurity-Slide.png" />
-    </a>
+    <?php endforeach ?>
 </div>

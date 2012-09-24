@@ -4,7 +4,7 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 
-                    <?php $this->widget('application.components.cmcbanner') ?>
+                    <?php $this->widget('application.components.CmcBanner') ?>
 					<div class="clear"></div>
 					<h3>Sản Phẩm & Dịch Vụ</h3>
 					<div id="tabContainer">
@@ -51,15 +51,15 @@ $this->pageTitle=Yii::app()->name;
 					</div>
 
                     
-					<?php $this->widget('application.components.sidebar') ?>
+					<?php $this->widget('application.components.Sidebar') ?>
                     
 					<div class="clear"></div>
                     
-					<?php $this->widget('application.components.slider') ?>
+					<?php $this->widget('application.components.Slider') ?>
                     
-                    <?php $this->widget('application.components.videoindex') ?>
+                    <?php $this->widget('application.components.VideoIndex') ?>
                     
 					<div class="clear"></div>
                     
-                    <?php $this->widget('application.components.cmcfooter') ?>
+                    <?php $this->widget('application.components.CmcFooter') ?>
 

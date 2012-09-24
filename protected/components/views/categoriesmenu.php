@@ -7,9 +7,9 @@
 				</a>
 				<ul class="noJS">
 					<li><?php echo CHtml::link("Sản phẩm & dịch vụ",array('site/index')); ?></li>
-					<li><?php echo CHtml::link("Đặt hàng",array('page/dathang')); ?></li>
+					<li><?php echo CHtml::link("Đặt hàng",array('site/dathang')); ?></li>
 					<li><?php echo CHtml::link("Tải về",array('download/index')); ?></li>
-					<li><?php echo CHtml::link("Đại lý",array('page/daily')); ?></li>
+					<li><?php echo CHtml::link("Đại lý",array('site/daily')); ?></li>
 				</ul>
 			</li>
 			

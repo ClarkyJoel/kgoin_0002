@@ -12,9 +12,9 @@ class AboutController extends Controller
 		$this->render('index');
 	}
     
-   	public function actionCmcpic()
+   	public function actionCmcquaanh()
 	{
-		$this->render('cmcpic');
+		$this->render('cmcquaanh');
 	}
 
 	// -----------------------------------------------------------

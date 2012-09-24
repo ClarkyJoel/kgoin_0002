@@ -24,23 +24,21 @@ $this->breadcrumbs=array(
 										</ul>
 										<ul class="Right">
 											<li><img src="images/baoChiNoiVeCmc-thumbs.png" /><p><strong><?php echo CHtml::link("Báo Chí Nói Về CMC", array('error/index')); ?></strong><br>CMC InfoSec phấn đấu trở thành một tổ chức luôn biết học hỏi, cải thiện và thích nghi với thay đổi của môi trường xung quanh, nhằm tạo ra dịch vụ bảo mật chất lượng tốt...</p></li>
-											<li><img src="images/cmcQuaAnh-thumbs.png" /><p><strong><?php echo CHtml::link("CMC Qua Ảnh", array('error/index')); ?></strong><br>CMC InfoSec phấn đấu trở thành một tổ chức luôn biết học hỏi, cải thiện và thích nghi với thay đổi của môi trường xung quanh, nhằm tạo ra dịch vụ bảo mật chất lượng tốt...</p></li>
+											<li><img src="images/cmcQuaAnh-thumbs.png" /><p><strong><?php echo CHtml::link("CMC Qua Ảnh", array('about/cmcquaanh')); ?></strong><br>CMC InfoSec phấn đấu trở thành một tổ chức luôn biết học hỏi, cải thiện và thích nghi với thay đổi của môi trường xung quanh, nhằm tạo ra dịch vụ bảo mật chất lượng tốt...</p></li>
 										</ul>
 									</div>
 								</div>
 							</div>
 							<div class="col-right hosocongtyColright">
                             
-								<?php $this->widget('application.components.sidebar') ?>
+								<?php $this->widget('application.components.Sidebar') ?>
                                 
-								<div class="support">
-									<img src="images/hotro_icon.png" />
-								</div>
+								<?php $this->widget('application.components.Support') ?>
                                 
-								<?php $this->widget('application.components.topvirus') ?>
+								<?php $this->widget('application.components.TopVirus') ?>
                                 
 							</div>
 							<div class="clear"></div>
                             
-							<?php $this->widget('application.components.cmcfooter') ?>
+							<?php $this->widget('application.components.CmcFooter') ?>
 						</div>

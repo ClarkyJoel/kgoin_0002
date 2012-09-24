@@ -28,13 +28,13 @@
         <div class="row">
 			<div id="header">
 				
-                <?php $this->widget('application.components.cmclogo') ?>
+                <?php $this->widget('application.components.CmcLogo') ?>
                 
-				<?php $this->widget('application.components.cmcsearch') ?>
+				<?php $this->widget('application.components.CmcSearch') ?>
                 
                 <div class="clear"></div>
                 
-                <?php $this->widget('application.components.categoriesmenu') ?>
+                <?php $this->widget('application.components.CategoriesMenu') ?>
 				
 			</div>
             

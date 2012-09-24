@@ -8,6 +8,7 @@ $this->breadcrumbs=array(
 					<div class="clear"></div>
 				<div id="antivirus_content">
 					<div class="col-left">
+                    
 						<div class="antivirus-banner">
 							<img src="images/mobileSecurity-banner.png" />
 						</div>
@@ -48,16 +49,14 @@ $this->breadcrumbs=array(
 					</div> <!-- .col-left -->
 					<div class="col-right">
 						
-                        <?php $this->widget('application.components.sidebar') ?>
+                        <?php $this->widget('application.components.Sidebar') ?>
                         
-						<div class="support">
-							<img src="images/hotro_icon.png" />
-						</div>
+						<?php $this->widget('application.components.Support') ?>
                         
-						<?php $this->widget('application.components.topvirus') ?>
+						<?php $this->widget('application.components.TopVirus') ?>
                         
 					</div> <!-- .Col-right -->
 				</div> <!-- .content -->
 				<div class="clear"></div>
                 
-				<?php $this->widget('application.components.cmcfooter') ?>
+				<?php $this->widget('application.components.CmcFooter') ?>
